@@ -1,0 +1,9 @@
+version: 2
+
+sources: 
+  - name: globalreport
+    database: PROD_CRM
+    schema: PUBLIC 
+    tables:
+      - name: customer
+      

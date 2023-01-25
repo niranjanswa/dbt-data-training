@@ -5,4 +5,5 @@
 }}
 
 
-select * from PROD_CRM.PUBLIC.CUSTOMER
+select * from
+{{ source('globalreport', 'customer') }}
