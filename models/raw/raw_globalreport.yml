@@ -1,0 +1,9 @@
+version : 2
+
+models:
+  - name: customer_data
+    columns:
+      - name: NAME
+        tests:
+          - not_null
+          

@@ -1,0 +1,4 @@
+{%set tabletype = "customertable"  %}
+select name,
+'{{tabletype}}' as source_table
+from {{ ref('customer_data') }}
